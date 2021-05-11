@@ -10,7 +10,7 @@
 ## Oyun Hakkında
 #### Oyunu yaparken yol ve arabaların görünümü için CSS'i ve oyunun işleverini sağlamak için de JavaScript dilini kullandım.Oyunun amacı diğer arabalara çarpmadan ilerleyebilmektir.
 ### Javascript 'te Sağlanan İşlevler
-#### * Arabaların hareketi
+* Arabaların hareketi
 #### * Çizgilerin hareketi
 #### * Arabaların renk değişimi
 #### * Puan hesaplama
