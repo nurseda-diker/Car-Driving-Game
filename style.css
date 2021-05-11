@@ -9,7 +9,7 @@
     width: 50px;
     height: 100px;
     background-color: white;
-    background-image: url(image.png);
+    background-image: url(car.png);
     background-size: cover;
   }
   .gameArea {
