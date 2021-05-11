@@ -108,19 +108,19 @@ function start() {
 
     }
 }
-        function endGame() {
-            music.pause();
-            player.start = false;
-            score.innerHTML = "Game Over<br>Score: " + player.score;
-            startScreen.classList.remove("hide");
-            startScreen.innerHTML="Tekrar başlamak için buraya tıklayın";
-        }
+function endGame() {
+    music.pause();
+    player.start = false;
+    score.innerHTML = "Game Over<br>Score: " + player.score;
+    startScreen.classList.remove("hide");
+    startScreen.innerHTML="Tekrar başlamak için buraya tıklayın";
+}
 
-        function randomColor() {
-            function colors() {
-                let color = Math.floor(Math.random() * 256).toString(16);
-                return ("0" + String(color)).substr(-2);
-            }
-            return "#" + colors() + colors() + colors();
-      }
+function randomColor() {
+    function colors() {
+          let color = Math.floor(Math.random() * 256).toString(16);
+          return ("0" + String(color)).substr(-2);
+    }
+    return "#" + colors() + colors() + colors();
+}
 
